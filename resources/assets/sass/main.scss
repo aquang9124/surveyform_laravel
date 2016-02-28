@@ -1,0 +1,29 @@
+// Sass variables
+$width: 100%;
+$height: 100%;
+
+html, body {
+	width: $width;
+	height: $height;
+}
+
+.container {
+	@include outer-container(60%);
+
+	.row {
+		@include row();
+	}
+}
+
+.form-wrapper, .info-wrapper {
+	margin-top: em(50);
+	border: 3px solid black;
+	padding: em(20);
+}
+
+form {
+	
+	.select-width {
+		min-width: $width;
+	}
+}

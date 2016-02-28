@@ -1,0 +1,9 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// 3rd party components consisting of Bourbon, Neat and Bitters
+@import "resources/assets/scss/lib/bourbon/_bourbon.scss";
+@import "resources/assets/scss/base/_grid-settings.scss";
+@import "resources/assets/scss/lib/neat/_neat.scss";
+@import "resources/assets/scss/base/_base.scss";
+
+// Sass Files
+@import "resources/assets/sass/main.scss";
